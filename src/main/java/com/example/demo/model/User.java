@@ -5,6 +5,7 @@ public class User {
     private String name;
     private String email;
     private String tel;
+	private String link;
 
     // コンストラクタ
     public User() {

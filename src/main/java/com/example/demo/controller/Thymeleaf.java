@@ -18,11 +18,19 @@ public class Thymeleaf {
         model.addAttribute("user", user);
         model.addAttribute("contacts", java.util.Arrays.asList("〇〇〇の問い合わせ", "×××の問い合わせ", "△△△の問い合わせ"));
         return "Thymeleaf";
-        
+       
     }
     @GetMapping("/home")
-    public String index() {
+    public String home() {
         return "home";
+    }
+    @GetMapping("/about")
+    public String about() {
+        return "about";
+    }
+    @GetMapping("/contact")
+    public String contact() {
+        return "contact";
     }
 }
      

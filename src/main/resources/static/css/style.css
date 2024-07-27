@@ -97,7 +97,7 @@ footer{
 	font-size:20px;
 }
 
-.home-inner{
+.home-inner , .about-inner , .contact-inner{
 	display:flex;
 	justify-content:center;
 	align-items:center;
@@ -105,7 +105,7 @@ footer{
 	height:500px;
 	background: #ddd;
 }
-.home{
+.home , .about , .contact{
 	text-decoration:none;
 	color:#fff;
 	text-align:center;
