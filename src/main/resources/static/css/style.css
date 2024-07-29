@@ -24,6 +24,7 @@ header{
 }
 p{
 	margin-top:15px;
+
 }
 nav{
 }
@@ -35,12 +36,13 @@ li{
 	margin: 15px 20px 0;
 }
 a{
+	display: block;
 	font-size:36px;
 	text-decoration: none;
 	color:#000;
 	font-weight: normal;
 }
-.form-inner{	
+.form-inner{
 	display:block;
 	width:100%;
 	align-items:center;
@@ -65,11 +67,12 @@ label{
 	border:none;
 	background:#dedede;
 	border-radius:5px;
-	
+
 }
 .text{
 	margin-bottom:50px;
 }
+
 
 .radio{
 	width:95%;

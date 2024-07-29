@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<link th:href="@{/css/style.css}" rel="stylesheet">
+
+<main>
+
+	<div class="form-inner">
+
+		<form  class="form" action="#" th:action="@{/user/products}" th:object="${products}" method="post">
+		    <div class=text>
+		        <label for="firstName">name:</label>
+		        <input  class="input" type="text" id="name" th:field="*{name}" />
+		    </div>
+		    <div class=text>
+		        <label for="lastName">price:</label>
+		        <input class="input" type="text" id="price" th:field="*{price}" />
+		    </div>
+		    <div>
+		        <button  class="input" type="submit">Save</button>
+		    </div>
+		</form>
+	</div>
+</main>
