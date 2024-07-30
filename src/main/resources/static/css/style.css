@@ -48,6 +48,21 @@ a{
 	align-items:center;
 	padding:130px 0 260px;
 	font-size:26px;
+	margin: 0 auto;
+}
+.form-inner p{
+	font-size:24px;
+	text-align:center;
+}
+.inner{
+	display:inline-block;
+	width:100%;
+	text-align:center;
+	margin: 0 auto;	
+}
+.form-inner a{
+	font-size:30px;
+	padding:25px;
 }
 .form{
 	display:block;
